@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean id="XmlBean" class="com.work2.xml.XmlBean"/>
+
+
+    <!--    学校类相关配置-->
+    <bean id="student1" class="com.work3.school.Student">
+        <property name="id" value="10001"/>
+        <property name="name" value="张三"/>
+    </bean>
+    <bean id="student2" class="com.work3.school.Student">
+        <property name="id" value="10002"/>
+        <property name="name" value="李四"/>
+    </bean>
+
+    <bean id="class1" class="com.work3.school.Klass">
+        <property name="name" value="1班"/>
+        <property name="students">
+            <list>
+                <ref bean="student1"/>
+                <ref bean="student2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="school" class="com.work3.school.School">
+        <property name="classes">
+            <list>
+                <ref bean="class1"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>

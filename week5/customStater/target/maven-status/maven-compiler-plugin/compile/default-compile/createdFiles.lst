@@ -1,0 +1,6 @@
+com\custom\starter\Student.class
+com\custom\starter\School.class
+com\custom\starter\SchoolAutoConfiguration.class
+META-INF\spring-autoconfigure-metadata.properties
+com\custom\starter\SchoolProperties.class
+com\custom\starter\Klass.class

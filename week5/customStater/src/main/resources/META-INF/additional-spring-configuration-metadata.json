@@ -1,0 +1,46 @@
+{
+  "properties": [
+    {
+      "name": "school.studentIds",
+      "type": "java.lang.String",
+      "description": "Description for school.studentIds.",
+      "defaultValue": "10001,10002"
+    },
+    {
+      "name": "school.studentNames",
+      "type": "java.lang.String",
+      "description": "Description for school.studentNames.",
+      "defaultValue": "张三,李四"
+    },
+    {
+      "name": "school.classIds",
+      "type": "java.lang.String",
+      "description": "Description for school.classIds.",
+      "defaultValue": "1班,2班"
+    },
+    {
+      "name": "school.studentOfClass[0].classId",
+      "type": "java.lang.String",
+      "description": "Description for school.studentOfClass[0].classId.",
+      "defaultValue": "1班"
+    },
+    {
+      "name": "school.studentOfClass[1].studentIds",
+      "type": "java.lang.String",
+      "description": "Description for school.studentOfClass[1].studentIds.",
+      "defaultValue": "1001"
+    },
+    {
+      "name": "school.studentOfClass[1].classId",
+      "type": "java.lang.String",
+      "description": "Description for school.studentOfClass[1].classId.",
+      "defaultValue": "2班"
+    },
+    {
+      "name": "school.studentOfClass[0].studentIds",
+      "type": "java.lang.String",
+      "description": "Description for school.studentOfClass[0].studentIds.",
+      "defaultValue": "1002"
+    }
+  ]
+}
